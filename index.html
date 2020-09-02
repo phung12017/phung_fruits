@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/54c15e844f.js"></script>
+    <link rel="shortcut icon" href="img/ic.png" type="image/png">
+    <script src="js/menu.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+ 
+<body>
+    <!--Header-->
+    <header>
+        <!-- Menu Mobile Container -->
+        <div class="container-menu-mobile ">
+            <!-- Topbar mobile -->
+            <div class="topbar-mb">
+                
+                <div class="logo"><a href="index.html"> <i class="fas fa-store"></i> Phung Fruist</a></div>
+                
+                <button id="btnT"><i class="fas fa-bars"></i></button>           
+                
+                <div class="ic">   
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>  
+
+            <!-- Menu mobile-->
+            <div id="menuMob">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+            </div> 
+        
+        </div>
+    </header>
+
+    <!-- Banner Home -->
+    <div class="banner-home banner-home-1  mb">   
+         <!-- Menu Desktop container -->
+         <div class="container-menu-desktop ps-asl">
+                <!-- Menu desktop -->
+                 
+                <nav>
+                    <div class="c-menu-dt">
+                        <div class="logo"><a href="index.html"> <i class="fas fa-store"></i> Phung Store</a></div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+        
+                        <div class="icon-nav">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="far fa-heart"></i>
+                        </div>
+
+                    </div>
+                </nav> 
+        </div>  
+        
+        <div class="content">
+            <h2>Organic Fruist And Veggies</h2>
+            <h1 class="big-title">Sale up to 50% to all products</h1>
+            <button>SHOP NOW</button>
+        </div>
+        
+    </div>
+
+
+    <div class="wrapper">
+        <!-- Service -->
+        <section class="sec-service">
+
+                <!-- B1 -->
+                <div class="col-4 mr mr-tl">
+                    <img src="img/ic_return.jpg" alt="">
+                    <h2>FREE RETURNS</h2>
+                    <p>Only for all orders over $100.00</p>
+                </div>
+                
+                <!-- B2 -->
+                <div class="col-4  mr">                       
+                    <img src="img/ic_ship.jpg" alt="" class="img">
+                    <h2>FREE SHIPPING</h2>
+                    <p>on all orders over $50.00</p>                                         
+                </div>
+    
+                <!-- B2 -->
+                <div class="col-4 mr-tl"> 
+                    <img src="img/ic_support.jpg" alt="" class="img" >
+                    <h2>FREE SUPPORT</h2>
+                    <p>24 / 7 from Monday to Friday</p>   
+                </div> 
+            
+              
+        </section>
+
+        <!-- Sub banner -->
+        <section class="sub-banner-container">
+                <!-- B1 -->
+                <div class="col-6 mr">
+                    <div class="sbn">
+                        <div class="overplay2"></div>
+                        <img src="img/sub-banner-1.jpeg" alt="">
+                        <div class="top">
+                            <h1>Fruit</h1>
+                            <p>Organic Fruits And Veggies</p>
+                         </div>
+                        <div class="btn">
+                            <a href="">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- B2 -->
+                <div class="col-6">
+                    <div class="sbn">
+                        <div class="overplay"></div>
+                        <img src="img/sub-banner-2.jpg" alt="" srcset="">
+                        <div class="top">
+                            <h1>Vegetable</h1>
+                            <p>Organic Fruits And Veggies</p>
+                        </div>
+                        <div class="btn">
+                            <a href="">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+           
+        </section>
+        <script>
+            $(document).ready(function(){
+                $(".fa-eye").click(function(){
+                    window.open('detail.html','_newtab');
+
+                });
+            });
+        </script>
+         <!-- New Product -->
+         <section class="sec-newprod">        
+                <div class="title-container">           
+                    <h1>New Products</h1>
+                </div>
+               
+                <!-- Block 1 -->
+                <div class="col-3 mr mr-tl">
+                    <div class="prod">
+                        <img src="img/blueberry.png" alt="">
+                        <div class="name">Blueberry</div>
+                        
+                        <div class="icon-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+    
+                        <div class="price">$50.6</div>
+                            
+                        <div class="ic-left">
+                            <i class="fas fa-shopping-cart" title="Add to cart"></i>
+                            <i class="fas fa-eye" title="Quick view"> <a href="detail.html"></a> </i>
+                            <i class="fas fa-heart" title="Like"></i>
+                        </div>
+                    </div>
+                </div>
+                    
+                <!-- Block 2 -->
+                <div class="col-3 mr ">
+                        <div class="prod">
+                            <img src="img/apple.png" alt="">
+                            <div class="name">Apple</div>
+                            
+                            <div class="icon-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+        
+                            <div class="price">$70.6</div>
+                                
+                            <div class="ic-left">
+                                <i class="fas fa-shopping-cart" title="Add to cart"></i>
+                                <i class="fas fa-eye" title="Quick view"></i>
+                                <i class="fas fa-heart" title="Like"></i>
+                            </div>
+                        </div>
+                </div>
+                
+              
+                <!-- Block 3 -->
+                <div class="col-3 mr mr-tl">
+                        <div class="prod">
+                            <img src="img/cabagge.png" alt="">
+                            <div class="name">Cabagge</div>
+                            
+                            <div class="icon-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+        
+                            <div class="price">$30.6</div>
+                                
+                            <div class="ic-left">
+                                <i class="fas fa-shopping-cart" title="Add to cart"></i>
+                                <i class="fas fa-eye" title="Quick view"></i>
+                                <i class="fas fa-heart" title="Like"></i>
+                            </div>
+                        </div>
+                </div>
+                
+                <!-- Block 4 -->
+                <div class="col-3  ">
+                        <div class="prod">
+                            <img src="img/banna.png" alt="">
+                            <div class="name">Banana</div>
+                            
+                            <div class="icon-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+        
+                            <div class="price"><del>49.5 </del>$50.6</div>
+                                
+                            <div class="ic-left">
+                                <i class="fas fa-shopping-cart" title="Add to cart"></i>
+                                <i class="fas fa-eye" title="Quick view"></i>
+                                <i class="fas fa-heart" title="Like"></i>
+                            </div>
+                            <div class="ic-sale">SALE</div>
+                        </div>
+                    </div>
+        </section>
+       
+        
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+            <!--Wrapper start -->
+            <div class="wrapper">
+    
+                <!-- CATEGORIES -->
+                <div class="col-3 mr mr-tl">
+                    <h3>CATEGORIES</h3>
+                    <div class="content">
+                        <a href="">All</a>
+                        <a href="">Fruist</a>
+                        <a href="">Juices</a>    
+                        <a href="">Veggies</a>
+                        <a href="">Other</a>
+                    </div>
+                </div>
+        
+                <!-- HELP -->
+                <div class="col-3 mr">
+                    <h3>HELP</h3>
+                    <div class="content">
+                        <a href="">Track Other</a>
+                        <a href="">Returns</a>
+                        <a href="">Shipping</a>
+                        <a href="">FAQs</a>    
+                    </div>
+                </div>
+        
+                <!-- GET IN TOUCH -->
+                <div class="col-3 mr mr-tl">
+                    <h3>GET IN TOUCH</h3>
+                    
+                    <div class="content">
+                        <p>Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879</p>
+                    </div>
+                    
+                    <div class="icon-footer">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <i class="fab fa-google-plus-g" aria-hidden="true"></i>
+                    </div>
+                </div>
+                            
+                <!-- NEWSLETTER -->
+                <div class="col-3 ">
+                
+                    <h3>NEWSLETTER</h3>
+                
+                    <div class="content">
+                        <p><input type="email" name="" id="" placeholder="example@gmail.com"></p>
+                        <div class="footer-bar"></div>
+                        <p><button>SUSCRIBES</button></p>
+                     </div>
+                </div>
+                
+                <!--  Copyright -->
+                <div class="footer-bottom">
+                    <p> Copyright ©2019 All rights reserved | This template is made with  by   <a href=""> Colorlib</a></p>
+                </div>   
+    
+            </div> 
+            <!-- Wrapper End--> 
+    
+    </footer>
+
+    <!--================================================================================================================-->
+  
+    <!--================================================================================================================-->
+</body>
+</html>
